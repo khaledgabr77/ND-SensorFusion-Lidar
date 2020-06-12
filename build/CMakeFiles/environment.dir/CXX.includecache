@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,21 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/home/khaled/PCL/SFND_Lidar_Obstacle_Detection/src/environment.cpp
+/home/khaled/ND-PCL/ND-SensorFusion-Lidar/src/environment.cpp
 sensors/lidar.h
-/home/khaled/PCL/SFND_Lidar_Obstacle_Detection/src/sensors/lidar.h
+/home/khaled/ND-PCL/ND-SensorFusion-Lidar/src/sensors/lidar.h
 render/render.h
-/home/khaled/PCL/SFND_Lidar_Obstacle_Detection/src/render/render.h
+/home/khaled/ND-PCL/ND-SensorFusion-Lidar/src/render/render.h
 processPointClouds.h
-/home/khaled/PCL/SFND_Lidar_Obstacle_Detection/src/processPointClouds.h
+/home/khaled/ND-PCL/ND-SensorFusion-Lidar/src/processPointClouds.h
 processPointClouds.cpp
-/home/khaled/PCL/SFND_Lidar_Obstacle_Detection/src/processPointClouds.cpp
+/home/khaled/ND-PCL/ND-SensorFusion-Lidar/src/processPointClouds.cpp
 
-/home/khaled/PCL/SFND_Lidar_Obstacle_Detection/src/processPointClouds.cpp
+/home/khaled/ND-PCL/ND-SensorFusion-Lidar/src/processPointClouds.cpp
 processPointClouds.h
-/home/khaled/PCL/SFND_Lidar_Obstacle_Detection/src/processPointClouds.h
+/home/khaled/ND-PCL/ND-SensorFusion-Lidar/src/processPointClouds.h
 
-/home/khaled/PCL/SFND_Lidar_Obstacle_Detection/src/processPointClouds.h
+/home/khaled/ND-PCL/ND-SensorFusion-Lidar/src/processPointClouds.h
 pcl/io/pcd_io.h
 -
 pcl/common/common.h
@@ -50,21 +50,17 @@ ctime
 chrono
 -
 render/box.h
-/home/khaled/PCL/SFND_Lidar_Obstacle_Detection/src/render/box.h
+/home/khaled/ND-PCL/ND-SensorFusion-Lidar/src/render/box.h
 
-/home/khaled/PCL/SFND_Lidar_Obstacle_Detection/src/render/box.h
+/home/khaled/ND-PCL/ND-SensorFusion-Lidar/src/render/box.h
 Eigen/Geometry
 -
 
-/home/khaled/PCL/SFND_Lidar_Obstacle_Detection/src/render/render.cpp
-render.h
-/home/khaled/PCL/SFND_Lidar_Obstacle_Detection/src/render/render.h
-
-/home/khaled/PCL/SFND_Lidar_Obstacle_Detection/src/render/render.h
+/home/khaled/ND-PCL/ND-SensorFusion-Lidar/src/render/render.h
 pcl/visualization/pcl_visualizer.h
 -
 box.h
-/home/khaled/PCL/SFND_Lidar_Obstacle_Detection/src/render/box.h
+/home/khaled/ND-PCL/ND-SensorFusion-Lidar/src/render/box.h
 iostream
 -
 vector
@@ -72,9 +68,9 @@ vector
 string
 -
 
-/home/khaled/PCL/SFND_Lidar_Obstacle_Detection/src/sensors/lidar.h
+/home/khaled/ND-PCL/ND-SensorFusion-Lidar/src/sensors/lidar.h
 ../render/render.h
-/home/khaled/PCL/SFND_Lidar_Obstacle_Detection/src/render/render.h
+/home/khaled/ND-PCL/ND-SensorFusion-Lidar/src/render/render.h
 ctime
 -
 chrono
@@ -888,27 +884,13 @@ math_constants.h
 
 /usr/include/eigen3/Eigen/src/Core/util/XprHelper.h
 
-/usr/include/eigen3/Eigen/src/Eigenvalues/./ComplexSchur.h
-./HessenbergDecomposition.h
-/usr/include/eigen3/Eigen/src/Eigenvalues/././HessenbergDecomposition.h
-
-/usr/include/eigen3/Eigen/src/Eigenvalues/./HessenbergDecomposition.h
-
-/usr/include/eigen3/Eigen/src/Eigenvalues/./RealQZ.h
-
-/usr/include/eigen3/Eigen/src/Eigenvalues/./RealSchur.h
-./HessenbergDecomposition.h
-/usr/include/eigen3/Eigen/src/Eigenvalues/././HessenbergDecomposition.h
-
-/usr/include/eigen3/Eigen/src/Eigenvalues/./Tridiagonalization.h
-
 /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h
 ./ComplexSchur.h
-/usr/include/eigen3/Eigen/src/Eigenvalues/./ComplexSchur.h
+/usr/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h
 
 /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h
 ./HessenbergDecomposition.h
-/usr/include/eigen3/Eigen/src/Eigenvalues/./HessenbergDecomposition.h
+/usr/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h
 
 /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur_MKL.h
 Eigen/src/Core/util/MKL_support.h
@@ -916,15 +898,15 @@ Eigen/src/Core/util/MKL_support.h
 
 /usr/include/eigen3/Eigen/src/Eigenvalues/EigenSolver.h
 ./RealSchur.h
-/usr/include/eigen3/Eigen/src/Eigenvalues/./RealSchur.h
+/usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h
 
 /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h
 ./RealQZ.h
-/usr/include/eigen3/Eigen/src/Eigenvalues/./RealQZ.h
+/usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h
 
 /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h
 ./Tridiagonalization.h
-/usr/include/eigen3/Eigen/src/Eigenvalues/./Tridiagonalization.h
+/usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h
 
 /usr/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h
 
@@ -934,7 +916,7 @@ Eigen/src/Core/util/MKL_support.h
 
 /usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h
 ./HessenbergDecomposition.h
-/usr/include/eigen3/Eigen/src/Eigenvalues/./HessenbergDecomposition.h
+/usr/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h
 
 /usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur_MKL.h
 Eigen/src/Core/util/MKL_support.h
@@ -942,7 +924,7 @@ Eigen/src/Core/util/MKL_support.h
 
 /usr/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h
 ./Tridiagonalization.h
-/usr/include/eigen3/Eigen/src/Eigenvalues/./Tridiagonalization.h
+/usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h
 
 /usr/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver_MKL.h
 Eigen/src/Core/util/MKL_support.h
@@ -3640,33 +3622,5 @@ vtkConfigure.h
 vtkABI.h
 /usr/include/vtk-6.2/vtkABI.h
 windows.h
--
-
-/usr/include/x86_64-linux-gnu/bits/mman-linux.h
-
-/usr/include/x86_64-linux-gnu/bits/mman.h
-bits/mman-linux.h
--
-
-/usr/include/x86_64-linux-gnu/bits/types.h
-features.h
--
-bits/wordsize.h
--
-bits/typesizes.h
--
-
-/usr/include/x86_64-linux-gnu/bits/typesizes.h
-
-/usr/include/x86_64-linux-gnu/bits/wordsize.h
-
-/usr/include/x86_64-linux-gnu/sys/mman.h
-features.h
--
-bits/types.h
--
-stddef.h
--
-bits/mman.h
 -
 
