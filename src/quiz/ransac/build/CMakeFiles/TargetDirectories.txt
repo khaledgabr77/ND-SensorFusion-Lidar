@@ -1,0 +1,3 @@
+/home/khaled/ND-PCL/ND-SensorFusion-Lidar/src/quiz/ransac/build/CMakeFiles/edit_cache.dir
+/home/khaled/ND-PCL/ND-SensorFusion-Lidar/src/quiz/ransac/build/CMakeFiles/rebuild_cache.dir
+/home/khaled/ND-PCL/ND-SensorFusion-Lidar/src/quiz/ransac/build/CMakeFiles/quizRansac.dir
