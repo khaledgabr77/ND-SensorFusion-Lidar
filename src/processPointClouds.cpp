@@ -70,7 +70,6 @@ typename pcl::PointCloud<PointT>::Ptr ProcessPointClouds<PointT>::FilterCloud(ty
 
     return cloudRegion;
    
-
 }
 
 template <typename PointT>
